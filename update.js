@@ -22,3 +22,14 @@ db.student.updateOne(
   { _id: ObjectId('6808bab1d569ab9b4fb5f8a0')},
   {$set: {age : 17,name:"Joy"}}
 )
+
+db.student.updateOne(
+  { _id: ObjectId('6808bab1d569ab9b4fb5f8a0')},
+  {$set: {age : 17,name:"Joy"}}
+)
+
+
+db.student.updateMany(
+  { name: "kisor"},
+  {$set: {age:13}}
+)
