@@ -187,3 +187,13 @@ db.student.insertOne({name: "Kisor",age:20,course:"BCA"})
 
 
 db.student.find();
+
+
+
+
+db.user.insertMany([
+    {name:"tonmmoy",age:13,city:"kollani"},
+    {name:"tonmmoy",age:14,city:"kollani"},
+    {name:"tonmmoy",age:15,city:"darziling"},
+    {name:"konika",age:12,city:"siliguri"}
+]);

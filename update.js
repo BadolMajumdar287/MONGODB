@@ -33,3 +33,22 @@ db.student.updateMany(
   { name: "kisor"},
   {$set: {age:13}}
 )
+
+
+db.user.updateOne(
+  {name: "badol"},
+  {$set: { age: 234, city: "Kasmir"}}
+)
+
+
+db.user.updateOne(
+  { _id: ObjectId('68093d867793e34dc2b5f89b')},
+  {$set: {age:2142566, city:"hsgdkjfghghgqjheujhj"}}
+)
+
+
+
+db.user.updateMany(
+  {name:"tonmmoy"},
+  {$set: { age:111,city:"shikh"}}
+)
