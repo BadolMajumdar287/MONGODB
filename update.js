@@ -52,3 +52,29 @@ db.user.updateMany(
   {name:"tonmmoy"},
   {$set: { age:111,city:"shikh"}}
 )
+
+
+
+db.user.updateOne(
+  { _id: ObjectId('68093d867793e34dc2b5f89b')},
+  {$set: {age:2142566, city:"hsgdkjfghghgqjheujhj"}}
+)
+
+
+db.user.updateOne(
+  {name:"badol"},
+  {$set: {age: 100,city:"ajshaljdhsjdg"}}
+)
+
+
+db.user.updateMany(
+  {name: "tonmoy"},
+
+  {$set: {age : 566663478, city: "abcdefghjklm"}}
+)
+
+db.user.updateMany(
+  {name: "tonmmoy"},
+
+  {$set: {age : 566663478, city: "abcdefghjklm"}}
+)

@@ -25,3 +25,12 @@ db.user.deleteOne({name:"badol"})
 db.user.deleteMany({name:"konika"})
 db.user.deleteMany({name:"tonmmoy"})
 db.user.deleteMany({});
+
+
+
+db.user.deleteOne({name:"tonmmoy"});
+
+
+db.user.deleteMany({name: "shomrat"})
+
+db.user.deleteMany({});

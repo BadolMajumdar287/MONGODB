@@ -140,7 +140,7 @@ db.createCollection("user",{
 
 
 db.user.insertOne({name: "badol",age:20,course:"BCA"});
-db.user.insertOne({name: "avi",age:18,course:"BCA"});
+db.user.insertOne({name: "avi",age:18,course:"BCA"})
 db.user.insertOne({name: "Shomrat",age:19,course:"BCA"});
 
 db.user.find()
@@ -197,3 +197,13 @@ db.user.insertMany([
     {name:"tonmmoy",age:15,city:"darziling"},
     {name:"konika",age:12,city:"siliguri"}
 ]);
+
+
+db.user.insertMany([
+    {name: "Monty",age:20,course:"BCA"},
+    {name: "Kisor",age:20,course:"BCA"},
+    {name: "badol",age:20,course:"BCA"},
+    {name: "Shomrat",age:19,course:"BCA"},
+    {name: "Shomrat",age:19,course:"BCA"}
+
+])
