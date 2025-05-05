@@ -94,4 +94,3 @@ db.user.find().skip(0);
 db.user.find().skip(1);
 
 
-db.user.find().skip(3)
